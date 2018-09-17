@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
@@ -22,6 +23,7 @@ import { LeafletMapComponent } from './leaflet-map/leaflet-map.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     LeafletModule.forRoot()
   ],

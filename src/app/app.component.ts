@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import {FormControl} from '@angular/forms';
+import {FormsModule} from '@angular/forms';
+import {Browser} from 'selenium-webdriver';
+import {NgModule} from '@angular/core';
 
 @Component({
   selector: 'app-root',
